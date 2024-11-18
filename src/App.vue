@@ -1,16 +1,13 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <MegaMart />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MegaMart from './components/MegaMart.vue';
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
+  components: { MegaMart }
 }
 </script>
 
